@@ -20,6 +20,7 @@ import com.example.pizzaorderingapp.ui.theme.PizzaOrderingAppTheme
 import com.example.pizzaorderingapp.ui.theme.PizzaSelectionScreen
 import com.example.pizzaorderingapp.ui.theme.ToppingSelectionScreen
 
+@Suppress("UNUSED_EXPRESSION")
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -63,7 +64,7 @@ class MainActivity : ComponentActivity() {
 @Preview
 @Composable
 private fun PizzaSelectionPreview() {
-    PizzaSelectionScreen() {
+    PizzaSelectionScreen {
 
     }
 }
